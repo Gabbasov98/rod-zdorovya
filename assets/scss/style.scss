@@ -418,13 +418,12 @@ li {
         position: relative;
         background-position: left center;
         background-repeat: no-repeat;
+        padding-bottom: 25px;
+        padding-top: 25px;
         &:not(:last-child) {
             border-bottom: 1px solid #e9e9e9;
-            padding-bottom: 15px;
         }
-        &:not(:first-child) {
-            padding-top: 15px;
-        }
+        // &:not(:first-child) {}
         &:first-child {
             background-image: url(../images/flag.png);
             background-size: 27px auto;
@@ -961,7 +960,7 @@ li {
         @include j-c;
     }
     &__item {
-        width: 18%;
+        width: 30%;
         letter-spacing: 0.02em;
         line-height: 1.2;
         color: #ffffff;
@@ -2167,7 +2166,7 @@ li {
         @include al-i(center);
     }
     .expert__item {
-        width: 202px;
+        width: 80%;
     }
     .expert__item:nth-child(2) {
         margin-left: 0;
